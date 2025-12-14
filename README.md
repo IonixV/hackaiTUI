@@ -20,5 +20,5 @@ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 you can also change the model by replacing `moonshotai/kimi-k2-0905` with any model from the [dashboard](https://ai.hackclub.com/dashboard) 
 ***(hackaiTUI only supports text models, not image models)***
 
-**hackai TUI automatically sends a prompt prefixed to the users which attempts to make the output terminal friendly.**
+**hackai TUI automatically sends a prompt prefixed to the user's which attempts to make the output terminal friendly.**
    
