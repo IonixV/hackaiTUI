@@ -1,4 +1,4 @@
-# hackaiTUI
+# hackai TUI
 **a simple, no bs TUI client for the hackai api**
 
 ## instructions
