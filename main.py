@@ -53,9 +53,8 @@ def res():
     if restart == "y":
         askusr()
         sys.os('cls')
-    else:
-        sys.exit()
 
 # starts the cycle
 
 askusr()
+
