@@ -54,7 +54,4 @@ def res():
         askusr()
 
 # starts the cycle
-
 askusr()
-
-
