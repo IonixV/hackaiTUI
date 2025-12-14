@@ -15,7 +15,7 @@ dP                         dP                oo    d888888P dP     dP dP
 dP    dP `88888P8 `88888P' dP   `YP `88888P8 dP       dP    `Y88888P' dP 
 oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 """)
-print(Fore.CYAN + Style.BRIGHT + "developed by ionixv, made possible by hack club" + Style.RESET_ALL)
+print(Fore.CYAN + Style.BRIGHT + "https://github.com/IonixV/hackaiTUI" + Style.RESET_ALL)
 print()
 
 # sets the server url and api key
@@ -57,4 +57,5 @@ def res():
         sys.exit()
 
 # starts the cycle
+
 askusr()
