@@ -1,11 +1,10 @@
 # imports depends
-import sys
 import os
 from colorama import Fore, Style, init
 from openrouter import OpenRouter
 
 init()
-os.system('cls')
+os.system('cls' if os.name == 'nt' else 'clear')
 print(Fore.MAGENTA + """
 dP                         dP                oo    d888888P dP     dP dP 
 88                         88                         88    88     88 88 
@@ -39,7 +38,7 @@ def send(request):
 def askusr():
     print(Fore.GREEN + "Hey there, what do you wanna ask AI today?" + Fore.WHITE)
     request = input()
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
     print(Fore.BLUE + "Generation will be below this text. -------------------------------")
     print(Fore.WHITE)
     send("Please make sure your output is terminal friendly, NO MARKDOWN FORMATTING! The user says: " + request)
