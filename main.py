@@ -52,9 +52,9 @@ def res():
     restart = input()
     if restart == "y":
         askusr()
-        sys.os('cls')
 
 # starts the cycle
 
 askusr()
+
 
