@@ -24,11 +24,6 @@ client = OpenRouter(
     server_url="https://ai.hackclub.com/proxy/v1",
 )
 
-# checks if the api key is set
-if api_key == "YOUR_API_KEY_GOES_HERE":
-    print(Fore.RED + Style.BRIGHT + "Your API key isn't set!")
-    sys.exit()
-
 # defines the request function, this asks the ai the question
 def send(request):
     response = client.chat.send(
